@@ -8,7 +8,9 @@ public class App {
     
     static String removeLetter(String string, int length, String result){
 
-        if(string.length()==length) return result;
+        if(string.length()==length)
+        
+            return result;
 
         String consonant = "bcdfghjklmnpqrstvwxyz";
 
